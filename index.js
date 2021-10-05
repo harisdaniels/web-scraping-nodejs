@@ -12,7 +12,6 @@ axios(url)
 
         $('.fc-item__title', html).each(function() {
              const title = $(this).text().replace(/(\r\n|\n|\r)/gm, "").trim();
-             //const title2 = title.replace(/(\r\n|\n|\r)/gm, "").trim();
             // $(this).attr('href');
             const link = $(this).find('a').attr('href');
             articles.push({
